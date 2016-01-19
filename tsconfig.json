@@ -11,6 +11,10 @@
     "suppressImplicitAnyIndexErrors": true,
     "isolatedModules": true
   },
+    "filesGlob": [
+    "src/**/*.ts",
+    "typings/**/*.d.ts"
+  ],
   "exclude": [
     "node_modules"
   ]

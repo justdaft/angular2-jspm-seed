@@ -33,6 +33,7 @@ System.config({
     "json": "github:systemjs/plugin-json@0.1.0",
     "ng2-material": "npm:ng2-material@0.1.7",
     "ng2-translate": "npm:ng2-translate@1.3.0",
+    "phaser": "github:photonstorm/phaser@2.4.4",
     "reflect-metadata": "npm:reflect-metadata@0.1.3",
     "rxjs": "npm:rxjs@5.0.0-beta.0",
     "scss": "github:theefer/plugin-sass@master",

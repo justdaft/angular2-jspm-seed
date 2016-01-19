@@ -3,6 +3,7 @@ import {Router, Route, RouteConfig, ROUTER_DIRECTIVES, Location} from 'angular2/
 import {MATERIAL_DIRECTIVES, MATERIAL_PROVIDERS} from 'ng2-material/all';
 import {TranslateService, TranslatePipe} from 'ng2-translate/ng2-translate';
 
+import {Retrogrid} from './retrogrid/retrogrid';
 import {Home} from './home/home';
 import {About} from './about/about';
 
@@ -14,7 +15,8 @@ import {About} from './about/about';
   pipes: [TranslatePipe]
 })
 @RouteConfig([
-  new Route({ path: '/home', component: Home, name: 'Home', useAsDefault: true}),
+      new Route({ path: '/retrogrid', component: Retrogrid, name: 'Retrogrid', useAsDefault: true}),
+  new Route({ path: '/home', component: Home, name: 'Home'}),
   new Route({ path: '/about', component: About, name: 'About'})
 ])
 export class AppComponent {
