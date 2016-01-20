@@ -1,11 +1,10 @@
 System.config({
+  baseURL: "/",
   defaultJSExtensions: true,
-  transpiler: "-",
-  babelOptions: {
-    "optional": [
-      "runtime",
-      "optimisation.modules.system"
-    ]
+  transpiler: "typescript",
+   typescriptOptions: {
+    "module": "commonjs",
+    "emitDecoratorMetadata": true
   },
   paths: {
     "github:*": "target/development/jspm/github/*",

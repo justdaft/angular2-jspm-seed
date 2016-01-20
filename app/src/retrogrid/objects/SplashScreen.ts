@@ -1,4 +1,4 @@
-/// <reference path="../../../typings/tsd.d.ts" />
+/// <reference path="../../../../typings/tsd.d.ts" />
 
 /*
  * SplashScreen
@@ -10,8 +10,8 @@
 
 
 class SplashScreen extends Phaser.Group {
-  progressBar: any;
-  constructor (game: Phaser.Game) {
+
+  constructor (game) {
     super(game);
 
     this.classType = Phaser.Image;
